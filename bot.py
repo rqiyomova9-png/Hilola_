@@ -7843,7 +7843,7 @@ def main():
 
     app.add_error_handler(error_handler)
 
-    logger.info(f"🚀 Bot v20 Railway ishga tushdi! RAM: {len(RAM.movies)} kino, {len(RAM.users)} user")
+    logger.info(f"🚀 Bot Azizbek Dasturchi tomonidan ishga tushdi! RAM: {len(RAM.movies)} kino, {len(RAM.users)} user")
     app.run_polling(
         drop_pending_updates=True,
         allowed_updates=["message", "callback_query", "chat_join_request"],
